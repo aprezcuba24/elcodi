@@ -80,7 +80,6 @@ class AbstractConfiguration
                 ->end()
                 ->booleanNode('enabled')
                     ->defaultValue($entityEnabled)
-                    ->cannotBeEmpty()
                 ->end()
             ->end()
         ->end();
